@@ -5,7 +5,6 @@ public class pistolShoot : MonoBehaviour
 {
     public GameObject phBullet;
     public float bulletForce = 20f;
-    [SerializeField] InputActionReference shootAction;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
