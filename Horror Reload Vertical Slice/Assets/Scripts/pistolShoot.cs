@@ -17,10 +17,13 @@ public class pistolShoot : MonoBehaviour
         
     }
 
-    public void Shoot()
+    public void Shoot(InputAction.CallbackContext cntxt)
     {
-        GameObject bullet = Instantiate(phBullet, transform.position, transform.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(transform.up * bulletForce, ForceMode2D.Impulse);
+        if (cntxt.performed)
+        {
+            GameObject bullet = Instantiate(phBullet, transform.position, transform.rotation);
+            Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(transform.up * bulletForce, ForceMode2D.Impulse);
+        }
     }
 }
