@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3790814221925979112}
   - component: {fileID: 6996417570264209587}
   - component: {fileID: 3337997511258066575}
+  - component: {fileID: -19687309151383003}
   m_Layer: 0
   m_Name: phBullet
   m_TagString: Untagged
@@ -119,3 +120,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-19687309151383003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6223570279503284254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a2cae5abfba1804da615c126fdb29d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::bulletDespawn
