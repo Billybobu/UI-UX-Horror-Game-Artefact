@@ -38,4 +38,13 @@ public class pistolShoot : MonoBehaviour
             }
         }
     }
+
+    public void Reload(InputAction.CallbackContext cntxt)
+    {
+        if (cntxt.performed)
+        {
+            currentAmmo = maxAmmo;
+            Debug.Log("Reloaded! Ammo: " + currentAmmo);
+        }
+    }
 }
