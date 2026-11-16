@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2614549345160995305}
   - component: {fileID: 4378119718612597311}
+  - component: {fileID: 3104112954390297947}
   m_Layer: 0
   m_Name: crosshairUI
   m_TagString: Untagged
@@ -91,3 +92,16 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &3104112954390297947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8607992989143421485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44fc470d9112274448696f23e9024d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::crosshairPosition
+  cam: {fileID: 0}
