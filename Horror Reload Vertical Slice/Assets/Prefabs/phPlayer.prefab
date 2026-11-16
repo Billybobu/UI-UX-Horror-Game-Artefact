@@ -198,6 +198,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::pistolShoot
   phBullet: {fileID: 6223570279503284254, guid: 0bd722d0c6f18e84fad5e39a33f7e745, type: 3}
   bulletForce: 20
+  maxAmmo: 10
+  currentAmmo: 0
 --- !u!114 &4266680561798655018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,6 +313,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5930715231447173722}
+        m_TargetAssemblyTypeName: pistolShoot, Assembly-CSharp
+        m_MethodName: Reload
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f1c8b40d-761c-43cc-809f-e34f36e3b415
+    m_ActionName: 'Player/Reload[/Keyboard/r]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
