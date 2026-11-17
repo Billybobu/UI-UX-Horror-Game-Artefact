@@ -198,8 +198,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::pistolShoot
   phBullet: {fileID: 6223570279503284254, guid: 0bd722d0c6f18e84fad5e39a33f7e745, type: 3}
   bulletForce: 20
-  maxAmmo: 10
+  maxAmmo: 14
   currentAmmo: 0
+  reserveAmmo: 50
 --- !u!114 &4266680561798655018
 MonoBehaviour:
   m_ObjectHideFlags: 0
