@@ -1488,6 +1488,7 @@ GameObject:
   - component: {fileID: 1382382785}
   - component: {fileID: 1382382784}
   - component: {fileID: 1382382788}
+  - component: {fileID: 1382382789}
   m_Layer: 5
   m_Name: canvasHUD
   m_TagString: Untagged
@@ -1595,6 +1596,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ammoCounterUI
   pistolShoot: {fileID: 476131309}
   ammoText: {fileID: 46021831}
+--- !u!114 &1382382789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382382783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 560b65672ddc43440b43dc6a57e5bb3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::bulletUI
+  pistolShoot: {fileID: 476131309}
+  bulletImages:
+  - {fileID: 1785522483}
+  - {fileID: 322571463}
+  - {fileID: 708964199}
+  - {fileID: 797602365}
+  - {fileID: 427902380}
+  - {fileID: 1210699616}
+  - {fileID: 1765641835}
+  - {fileID: 284477738}
+  - {fileID: 955064973}
+  - {fileID: 1354641771}
+  - {fileID: 345875884}
+  - {fileID: 2115683685}
+  - {fileID: 619285065}
+  - {fileID: 388655539}
 --- !u!1 &1402711469
 GameObject:
   m_ObjectHideFlags: 0
