@@ -10,7 +10,7 @@ public class pistolShoot : MonoBehaviour
     public int reserveAmmo = 25;
     bool isReloading = false;
     public float reloadTime = 3f;
-    float reloadTimer = 0f;
+    public float reloadTimer = 0f;
     bool fullMag = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

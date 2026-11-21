@@ -339,6 +339,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 299960629006046448, guid: 5832b0e47c4aec14d952aaa4c5c1190e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 299960629006046448, guid: 5832b0e47c4aec14d952aaa4c5c1190e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3585553970336642785, guid: 5832b0e47c4aec14d952aaa4c5c1190e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -386,6 +394,10 @@ PrefabInstance:
     - target: {fileID: 6959321335979102610, guid: 5832b0e47c4aec14d952aaa4c5c1190e, type: 3}
       propertyPath: m_Name
       value: phPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297948931008441635, guid: 5832b0e47c4aec14d952aaa4c5c1190e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
