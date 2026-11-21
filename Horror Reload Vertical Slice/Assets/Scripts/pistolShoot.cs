@@ -8,7 +8,7 @@ public class pistolShoot : MonoBehaviour
     public int maxAmmo = 10;
     public int currentAmmo;
     public int reserveAmmo = 25;
-    bool isReloading = false;
+    public bool isReloading = false;
     public float reloadTime = 3f;
     public float reloadTimer = 0f;
     bool fullMag = true;
